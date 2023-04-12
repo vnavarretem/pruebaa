@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h3 class="titulo-principal" >Despacho Martes - Jueves - Sabados</h3>
+      </header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="assets/img/carmelita.png" height="50" width="50" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" style="color: red;">Home</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Croissant
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Croissant Grandes.html">Croissant Grandes</a></li>
+                  <li><a class="dropdown-item" href="Croissant Pequeños.html">Croissant Pequeños</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Moldes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Molde Multigrano.html">Molde Multigrano</a></li>
+                  <li><a class="dropdown-item" href="Molde Blanco.html">Molde Blanco</a></li>
+                  <li><a class="dropdown-item" href="Molde Integral.html">Molde Integranl sin sal</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Panes Especiales
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Baguette.html">Baguette</a></li>
+                  <li><a class="dropdown-item" href="Pan de Hot Dog.html">Pan de Hot Dog</a></li>
+                  <li><a class="dropdown-item" href="Mini Dobladitas.html">Mini Dobladitas</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Panes Veganos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Panecillos Veganos.html">Panecillos Veganos</a></li>
+                  <li><a class="dropdown-item" href="Pan de Sandwich.html">Pan de Sandwich</a></li>
+                  <li><a class="dropdown-item" href="Masa de Pizza.html">Masa de Pizza</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pan de Pascua
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Tradicional.html">Tradicional</a></li>
+                  <li><a class="dropdown-item" href="Nueces Almendras.html">Nueces Almendras</a></li>
+                  <li><a class="dropdown-item" href="Nueces.html">Nueces</a></li>
+                </ul>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contactanos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Formulario.html">Contacto</a></li>
+                    <li><a class="dropdown-item" href="contactanos.html">Dejanos tu orden</a></li>
+                  </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Formulario.html">Dejanos tu mensaje</a></li> 
+                </ul>  
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Indique descripción" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <form action="">
+        <h2>ORDEN</h2>
+        <h6>Escribenos tu orden y pronto te contactaremos para confirmar tu pedido</h6>
+        <input type="text" name="Nombre" placeholder="Nombre">
+        <input type="text" name="Apellido" placeholder="Apellido">
+        <input type="text" name="correo" placeholder="Correo">
+        <input type="text" name="telefeno" placeholder="Telefono">
+        <input type="text" name="Direccion" placeholder="Direccion">
+        <textarea name="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
+        <input type="button" value="ENVIAR" id="boton">
+    </form>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
